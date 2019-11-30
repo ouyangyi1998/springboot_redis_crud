@@ -1,4 +1,5 @@
 # redis的crud，基于springboot
+- 源代码 https://github.com/xuwujing/springBoot-study
 - 对于redis的配置文件
   - 最大建立连接等待时间，如果超过此时间将接到异常。设为-1表示无限制 redis.maxWaitMillis=-1  
   - 是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个 redis.testOnBorrow=true  
